@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
-    buildToolsVersion "28.0.2"
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
 
     defaultConfig {
-        applicationId "cs534.sample.simplelistview"
-        minSdkVersion 19
-        targetSdkVersion 22
+        applicationId "cs518.sample.simplelistview"
+        minSdkVersion 22
+        targetSdkVersion 29
 
     }
 
