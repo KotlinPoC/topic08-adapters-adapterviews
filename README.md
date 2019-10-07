@@ -16,3 +16,6 @@ Instead of a listener a Context menu is attached to the ListView.
 ## [Simple Custom Adapter + RecyclerView](SampleRecyclerView)
 A sample of using a RecyclerView with a custom adapter.
 TODO:  as an exercise add an image to the RecyclerView layout
+##Converted to Kotlin
+* SimpleListView1
+* SimpleListView2
