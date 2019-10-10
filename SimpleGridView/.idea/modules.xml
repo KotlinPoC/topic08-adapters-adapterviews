@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SimpleGridView.iml" filepath="$PROJECT_DIR$/SimpleGridView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleGridView.iml" filepath="$PROJECT_DIR$/SimpleGridView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/SimpleGridView-app.iml" filepath="$PROJECT_DIR$/app/SimpleGridView-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic08-adapters-adapterviews-SimpleGridView.iml" filepath="$PROJECT_DIR$/topic08-adapters-adapterviews-SimpleGridView.iml" />
     </modules>
   </component>
 </project>

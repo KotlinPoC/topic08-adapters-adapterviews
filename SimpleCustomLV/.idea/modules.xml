@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SimpleCustomLV.iml" filepath="$PROJECT_DIR$/SimpleCustomLV.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleCustomLV.iml" filepath="$PROJECT_DIR$/SimpleCustomLV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/SimpleCustomLV-app.iml" filepath="$PROJECT_DIR$/app/SimpleCustomLV-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/topic08-adapters-adapterviews-SimpleCustomLV.iml" filepath="$PROJECT_DIR$/topic08-adapters-adapterviews-SimpleCustomLV.iml" />
     </modules>
   </component>
 </project>

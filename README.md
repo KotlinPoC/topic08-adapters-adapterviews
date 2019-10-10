@@ -19,3 +19,4 @@ TODO:  as an exercise add an image to the RecyclerView layout
 ##Converted to Kotlin
 * SimpleListView1
 * SimpleListView2
+* SimpleCustomLv

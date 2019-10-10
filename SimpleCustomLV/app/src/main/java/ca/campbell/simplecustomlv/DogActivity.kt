@@ -14,8 +14,8 @@ class DogActivity : Activity() {
         val name: String
         val id: Int
 
-        val tv = findViewById<View>(R.id.tv) as TextView
-        val iv = findViewById<View>(R.id.iv) as ImageView
+        val tv = findViewById(R.id.tv) as TextView
+        val iv = findViewById(R.id.iv) as ImageView
 
         if (intent.hasExtra("dog_name")) {
             tv.text = intent.extras!!.getString("dog_name")
