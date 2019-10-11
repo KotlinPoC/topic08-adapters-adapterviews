@@ -27,8 +27,9 @@ import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : Activity() {
-    internal var names: Array<String>
-    internal var ids = intArrayOf(R.drawable.sample_2, R.drawable.sample_3, R.drawable.sample_4, R.drawable.sample_5, R.drawable.sample_6, R.drawable.sample_7, R.drawable.sample_0, R.drawable.sample_1, R.drawable.beeker)
+    internal lateinit  var names: Array<String>
+    internal var ids =
+            intArrayOf(R.drawable.sample_2, R.drawable.sample_3, R.drawable.sample_4, R.drawable.sample_5, R.drawable.sample_6, R.drawable.sample_7, R.drawable.sample_0, R.drawable.sample_1, R.drawable.beeker)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -126,7 +127,7 @@ class MainActivity : Activity() {
                 }
             });
   */
-            return row
+            return row as View
         }
 
     }  // DogAdapter

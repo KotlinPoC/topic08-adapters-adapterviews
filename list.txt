@@ -4,3 +4,5 @@ SimpleCustomLVContextMenu
 SimpleGridView
 SimpleListView1
 SimpleListView2
+RecyclerViewKotlin
+CardViewKotlin

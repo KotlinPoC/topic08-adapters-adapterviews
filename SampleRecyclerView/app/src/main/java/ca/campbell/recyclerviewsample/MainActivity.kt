@@ -25,7 +25,7 @@ import java.util.ArrayList
 class MainActivity : AppCompatActivity(), CustomRecyclerViewAdapter.ItemClickListener {
 
     protected var countNew = 0
-    internal var adapter: CustomRecyclerViewAdapter
+    internal lateinit var adapter: CustomRecyclerViewAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), CustomRecyclerViewAdapter.ItemClickLis
         animalNames.add("Goat")
 
         // set up the RecyclerView
-        val recyclerView = findViewById<RecyclerView>(R.id.rvAnimals)
+        val recyclerView = findViewById(R.id.rvAnimals) as RecyclerView
         recyclerView.layoutManager = LinearLayoutManager(this)
         adapter = CustomRecyclerViewAdapter(this, animalNames)
         adapter.setClickListener(this)

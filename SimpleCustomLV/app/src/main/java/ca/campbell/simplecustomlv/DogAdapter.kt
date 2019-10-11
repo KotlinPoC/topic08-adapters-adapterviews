@@ -27,17 +27,11 @@ class DogAdapter(private val context: Context, internal var listDogs: Array<Stri
         inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
     }
 
-    override fun getCount(): Int {
-        return listDogs.size
-    }
+    override fun getCount(): Int = listDogs.size
 
-    override fun getItem(position: Int): Any {
-        return position
-    }
+    override fun getItem(position: Int): Any = position
 
-    override fun getItemId(position: Int): Long {
-        return position.toLong()
-    }
+    override fun getItemId(position: Int): Long = position.toLong()
 
     inner class ViewHolder {
         internal var tv: TextView? = null
