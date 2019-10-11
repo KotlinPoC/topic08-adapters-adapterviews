@@ -32,3 +32,7 @@ TODO: fix conversion issues
 This code is supplied by google, original from 
 
 https://github.com/android/views-widgets-samples
+## CardViewKotlin
+This code is supplied by google, original from 
+
+https://github.com/android/views-widgets-samples
