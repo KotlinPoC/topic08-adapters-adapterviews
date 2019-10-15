@@ -34,9 +34,7 @@ internal constructor(context: Context, private val mData: MutableList<String>) :
     }
 
     // total number of rows
-    override fun getItemCount(): Int {
-        return mData.size
-    }
+    override fun getItemCount(): Int = mData.size
 
 
     // stores and recycles views as they are scrolled off screen
@@ -54,9 +52,7 @@ internal constructor(context: Context, private val mData: MutableList<String>) :
     }
 
     // convenience method for getting data at click position
-    internal fun getItem(id: Int): String {
-        return mData[id]
-    }
+    internal fun getItem(id: Int): String =  mData[id]
 
     // allows clicks events to be caught
     internal fun setClickListener(itemClickListener: ItemClickListener) {

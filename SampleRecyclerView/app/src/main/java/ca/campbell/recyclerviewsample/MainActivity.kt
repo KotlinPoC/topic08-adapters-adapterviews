@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity(), CustomRecyclerViewAdapter.ItemClickLis
         animalNames.add("Camel")
         animalNames.add("Sheep")
         animalNames.add("Goat")
+        animalNames.add("Elephant")
 
         // set up the RecyclerView
         val recyclerView = findViewById(R.id.rvAnimals) as RecyclerView
