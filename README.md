@@ -27,12 +27,15 @@ kotlin
 A sample of using a RecyclerView with a custom adapter.
 TODO:  as an exercise add an image to the RecyclerView layout
 
-TODO: fix conversion issues
+kotlin
+androidx
 ## RecyclerViewKotlin
 This code is supplied by google, original from 
 
+androidx
 https://github.com/android/views-widgets-samples
 ## CardViewKotlin
 This code is supplied by google, original from 
 
+androidx
 https://github.com/android/views-widgets-samples

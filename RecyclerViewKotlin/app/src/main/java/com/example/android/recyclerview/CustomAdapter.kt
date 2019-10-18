@@ -16,7 +16,7 @@
 
 package com.example.android.recyclerview
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -32,12 +32,12 @@ import com.example.android.common.logger.Log
  * @param dataSet String[] containing the data to populate views to be used by RecyclerView.
  */
 class CustomAdapter(private val dataSet: Array<String>) :
-        RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+        androidx.recyclerview.widget.RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     /**
      * Provide a reference to the type of views that you are using (custom ViewHolder)
      */
-    class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
+    class ViewHolder(v: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(v) {
         val textView: TextView
 
         init {
